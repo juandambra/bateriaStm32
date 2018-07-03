@@ -2,36 +2,9 @@
 
 #include <MIDI.h>
 
-//  *****************************************************************************************************************
-//  *                                                                                                               *
-//  *                                         SpikenzieLabs.com                                                     *
-//  *                                                                                                               *
-//  *                                           Drum Kit - Kit                                                      *
-//  *                                                                                                               *
-//  *                                                                                                               *
-//  *****************************************************************************************************************
-//
-//  BY: MARK DEMERS Copywrite 20009
-//  April. 2009
-//  VERSION: 1.b
-//
-//  DESCRIPTION:
-//  Arduino analog input used to sense piezo drum hits then sent serialy to processing.
-//
-//  Required - Hardware:
-//  1. Drum kit - kit (From SpikenzieLabs.com)
-//  2. Arduino
-//
-//  Required - Software:
-//  1. Serial MIDI converter
-//  2. Garage Band, Ableton Live etc ...
-//
-// LEGAL:
-// This code is provided as is. No guaranties or warranties are given in any form. It is your responsibilty to
-// determine this codes suitability for your application.
+// http : //www.robotoid.com/appnotes/sensors-piezo-disc-touch-bar.html
 
-
-MIDI_CREATE_DEFAULT_INSTANCE();
+       MIDI_CREATE_DEFAULT_INSTANCE();
 const int midichannel = 1;
 
 
